@@ -1,2 +1,2 @@
-# GeniusGemsAcademy
+# GeniusGemsAcademy website
  

@@ -270,9 +270,12 @@ background-color:#FFBD5B;
     background: #FFFFFF ;
     margin:auto;
     width:100%;
-    margin-left: 3vw;
+    margin-left: 0;
   }
 
+  .testimonial-img{
+      width:95%;
+  }
   /* Section- About Us */
 
   .aboutus{
@@ -297,17 +300,17 @@ background-color:#FFBD5B;
   }
 
   .why-us-card1,.why-us-card2{
-      margin-left:7vw;
+      margin-left:4vw;
       margin-top: 4vw;
 
   }
   .why-us-card3{
-    margin-left:7vw;
+    margin-left:4vw;
     margin-top: 4vw;
 }
 
 .why-us-card4{
-    margin-left:10vw;
+    margin-left:8vw;
     margin-top: 4vw;
 }
 .why-us-img{
@@ -412,6 +415,7 @@ background-color:#FFBD5B;
     }
     .aboutpara{
         line-height: 2vh;
+       
     }
     .whyus-cardblock1,.whyus-cardblock2{
         display: block;
@@ -524,7 +528,7 @@ background-color:#FFBD5B;
         max-width:120%;
         margin-top:-6vw;
         background-size: cover;
-        /* filter: opacity(50%); */
+       
         }
 
    .hero-img-div{
@@ -598,14 +602,15 @@ background-color:#FFBD5B;
         margin-left:0;
         margin-right:0;
      }
-     .sub-maths,.sub-physics,.sub-chemistry{
-         margin:4% 20% 2% 15%;
+     .sub-maths,.sub-physics,.sub-chemistry,.sub-biology, .sub-computer{
+        width: 100%;
+        height: auto;
+        margin:auto;
+         /* margin:4% 20% 2% 0; */
      }
-     .sub-biology{
-         margin:4% 20% 2% 18%;
-     }
-     .sub-computer{
-         margin:4% 20% 2% 20%;
+     .sub-img{
+         width:100%;
+         height:auto;
      }
      .line{
          width: 14vh;
@@ -621,12 +626,17 @@ background-color:#FFBD5B;
          max-width:95%;
      }
      .aboutpara{
-         line-height: 2vh;
+         line-height: 2.5vh;
+         font-size: 3.2vw;
      }
      .whyus-cardblock1,.whyus-cardblock2{
          display: block;
      }
      .why-us-card1,.why-us-card2,.why-us-card3,.why-us-card4{
          margin:4% 20% 2% 22%;
+     }
+     .why-us-img{
+        width:100%;
+        height:auto;
      }
 }

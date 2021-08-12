@@ -14,10 +14,11 @@
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/44c693abb7.js" crossorigin="anonymous"></script>
     <!-- Custom stylesheet -->
-   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="assets/css/styles.css">
+   
 </head>
 <body>
-
+   
     <!-- Hero section starts here -->
     <section id="hero-section">
         <div class="container-fluid">
@@ -31,7 +32,7 @@
                       </a>
 
                 </div>
-                
+               
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button> 
@@ -41,46 +42,53 @@
                       
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">WHAT WE TEACH</a>
+                            <a class="nav-link" onclick="scrolltoSection('Subjects')" style="cursor: pointer;";>WHAT WE TEACH</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">TESTIMONIALS</a>
+                            <a class="nav-link" onclick="scrolltoSection('Testimonials')" style="cursor: pointer;">TESTIMONIALS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT US</a>
+                            <a class="nav-link" onclick="scrolltoSection('AboutUs')" style="cursor: pointer;">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">WHY CHOOSE US</a>
+                            <a class="nav-link" onclick="scrolltoSection('WhyChooseUs')" style="cursor: pointer;">WHY CHOOSE US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT US</a>
+                            <a class="nav-link" href="contact-us.html">CONTACT US</a>
                         </li>
-                        <!-- <li class="nav-item call-btn">
-                         <a class="nav-link" href="#"><img  src="images/call-btn.svg" alt="contact-img"></a>
-                        </li> -->
+                        
                     </ul>
                 </div>
             </nav>
+            <!-- <li class="nav-item call-btn">
+                         <a class="nav-link" href="#"><img  src="images/call-btn.svg" alt="contact-img"></a>
+                        </li> -->
+              
             <!-- Navbar ends here -->
-
+            
             <div class="section-main" >
                 <div class="hero-img-div">
                      <img class = "hero-img" src="images/hero-img.svg" alt="Genius Gems live tuition image"> 
                      <img class = "hero-img-m" src="images/Mobile-Hero_Image.svg" alt="Genius Gems live tuition image"> 
                 </div>
-                    <div class="section-sub">
-                        <h4 class="hero-h1">CHANGING LIVES </h4>
-                        <h4 class="hero-h2">ONE STUDENT AT A TIME </h4>
-                        <br>
-                        <h4 class="hero-h3">Live online tuitions for Maths, Science and Computer Science for students of Primary, Secondary and GCSE levels as per UK and US curriculum.</h4>
-                       
-                        <button type="button" class="btn btn-dark btn-lg demo-btn" >SCHEDULE DEMO</button>
-                        <div class="blob">
-                            <img src="images/hero-blob.png" id="hero-blob" alt ="Online tuition background image">
-                        </div>
-                       
+                <div class="section-sub">
+                    <h4 class="hero-h1">CHANGING LIVES </h4>
+                    <h4 class="hero-h2">ONE STUDENT AT A TIME </h4>
+                    <br>
+                    <h4 class="hero-h3">Live online tuitions for Maths, Science and Computer Science for students of Primary, Secondary and GCSE levels as per UK and US curriculum.</h4>
+                    
+                    <button type="button" class="btn btn-dark btn-lg demo-btn" >SCHEDULE DEMO</button>
+                    <div class="blob">
+                        <img src="images/hero-blob.png" id="hero-blob" alt ="Online tuition background image">
                     </div>
-                </div>   
+                    
+                </div>
+                
+                    <input type="image" class="scrollToTopBtn" src="images/scrollup.svg" />
+                
+                
+                <!-- <button class="scrollToTopBtn"></button> -->
+            </div>   
 <!-- <div class="mybtn_pp enqbtn1">
     <a href="https://api.whatsapp.com/send?phone=+919444951940" class="wa">Whatsapp</a>
     <a href="mailto:geniusgemsacademy@gmail.com" class="my_popup_open" data-popup-ordinal="7" id="open_5945199">Mail Us</a></div>
@@ -89,7 +97,7 @@
 
         </div> -->
 <!-- What We Teach Section -->
-        <div class="what-we-teach">
+        <div class="what-we-teach" id="Subjects">
             <div class="topic-heading">
                 WHAT WE TEACH
             </div>
@@ -114,7 +122,7 @@
 
         </div>
 <!-- Testimonials section -->
-        <div class="testimonials">
+        <div class="testimonials" id="Testimonials">
             <div class="topic-heading">
                 TESTIMONIALS
             </div>
@@ -126,7 +134,7 @@
             </div>
         </div>
 <!-- About Us section -->
-        <div class="aboutus">
+        <div class="aboutus" id="AboutUs">
             <div class="topic-heading">
                 ABOUT US
             </div>
@@ -143,7 +151,7 @@
             </div>
 
 <!-- Why Choose Us -->
-            <div class="topic-heading">
+            <div class="topic-heading" id="WhyChooseUs">
                WHY CHOOSE US
             </div>
             <div class="line">
@@ -165,11 +173,14 @@
                      <img  class="why-us-img" src="images/why-us-4.svg" alt="Genius Gems academy image"> 
                 </div>
             </div>
-           
+            
         </div>
-
+        </div>
     </section>
+   
     <!-- Hero section ends here -->
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="assets/scripts/main.js"></script>
 </body>
 </html>

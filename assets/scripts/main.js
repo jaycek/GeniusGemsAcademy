@@ -8,9 +8,9 @@ scrollToTopBtn.addEventListener("click", scrollToTop);
 
 // To handle navbar clicks on same page sections
 function scrolltoSection(id){
- 
-    const node=document.getElementById(id);
 
+    const node=document.getElementById(id);
+  
    node.scrollIntoView({
     behavior: "smooth", 
     block: "start",

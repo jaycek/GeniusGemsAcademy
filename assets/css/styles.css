@@ -209,8 +209,8 @@ line-height: 5vh;
 letter-spacing: 0.02em;
 margin-bottom: 1.5vw;
 padding-top: 1.5vw;
-
 }
+
 .line{
     width: 34vh;
     margin:auto;
@@ -330,6 +330,89 @@ background-color:#FFBD5B;
     display: flex;
     margin-left: 2vw;
 }
+
+/* Contact Us */
+.contact-text{
+    color: #622C78;
+    text-align: center;
+    font-family: Proxima Soft Condensed;
+font-style: normal;
+font-weight: 600;
+font-size: 2.15vw;
+line-height: 5vh;
+letter-spacing: 0.02em;
+margin-bottom: 1.5vw;
+padding-top: 1.5vw;
+
+}
+
+input[type=text], textarea {
+    width:34vw;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1.5vw;
+    margin-bottom: 16px;
+    resize: vertical;
+    margin-left:5vw;
+  }
+ 
+  
+  input:placeholder-shown ,textarea{
+    font-style: italic;
+ }
+ input[type=submit]{
+     margin-left:14vw;
+ }
+ .contact-main{
+     display:flex;
+ }
+.contact-form{
+  width:100%;
+   
+}
+.contact-image-div{
+     
+     width: 815px;
+     height: 636px;
+   
+ }
+
+ #contact-img{
+    background-repeat: no-repeat;
+    width: 815px;
+    height: 636px;
+    padding:2vw;
+    margin-top:-5vw;
+ }
+
+ .fb{
+     margin:-5vw 0 0 5vw;
+    height:2.5vw;
+    width:2.5vw;
+    display:flex;
+ }
+ .whatsapp,.gmail{
+    margin:1vw 0 0 5vw;
+    height:2.5vw;
+    width:2.5vw;
+    display:flex;
+ }
+
+ #fb-img,#whatsapp-img,#gmail-img{
+    height:2.5vw;
+    width:2.5vw;
+ }
+
+ .contact-details{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    margin:0.5vw 0 0 1vw;
+ }
 /* Ipad Pro size */
 @media only screen and (max-width:1024px){
     
@@ -552,50 +635,7 @@ background-color:#FFBD5B;
         font-size: 2.8vw;
     }
 
-    /* .hero-img{
-       
-        height:auto !important;
-        width:120% ;
-        max-width:120%;
-        margin-top:-6vw;
-        background-size: cover;
-       
-        }
-
-   .hero-img-div{
-           margin-left:-10vw;
-           margin-top: -4vw;
-           max-width:120%;
-           max-height: 120%;
-           height:fit-content;
-          
-        }
-        .section-sub{
-            position:absolute;
-            top:5vw; 
-            left:0vw;
-            width:75%;
-            max-width:75%;
-            z-index: 10;
-        }
- .hero-h1{
-        margin-top:-2vw;
-         font-size:4vw;
-       
-     }
-       .hero-h2{
-        margin-top:-1vw;
-         font-size: 3.8vw;
-     }
-     .hero-h3{
-      width:34vw;
-    
-      font-size:3vw;
-      line-height: 1.4vh;
-         
-     }  */
-
-     #hero-blob{
+    #hero-blob{
          display: none;
      }
 }

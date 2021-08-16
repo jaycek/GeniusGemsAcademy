@@ -69,7 +69,8 @@
             <div class="section-main" >
                 <div class="hero-img-div">
                      <img class = "hero-img" src="images/hero-img.svg" alt="Genius Gems live tuition image"> 
-                     <img class = "hero-img-m" src="images/Mobile-Hero_Image.svg" alt="Genius Gems live tuition image"> 
+                     <img class = "m-hero-img-text" src="images/m-herotext.svg" alt="Genius Gems live tuition image"> 
+                     <img class = "hero-img-m" src="images/m-heroimage.svg" alt="Genius Gems live tuition image"> 
                 </div>
                 <div class="section-sub">
                     <h4 class="hero-h1">CHANGING LIVES </h4>
@@ -77,7 +78,7 @@
                     <br>
                     <h4 class="hero-h3">Live online tuitions for Maths, Science and Computer Science for students of Primary, Secondary and GCSE levels as per UK and US curriculum.</h4>
                     
-                    <button type="button" class="btn btn-dark btn-lg demo-btn" onclick="scrolltoSection('ContactUs')" >SCHEDULE DEMO</button>
+                    <button type="button" class="btn btn-dark btn-lg demo-btn" id="hero-demo-btn" onclick="scrolltoSection('ContactUs')" >SCHEDULE DEMO</button>
                     <div class="blob">
                         <img src="images/hero-blob.png" id="hero-blob" alt ="Online tuition background image">
                     </div>
@@ -87,15 +88,8 @@
                     <input type="image" class="scrollToTopBtn" src="images/scrollup.svg" />
                 
                 
-                <!-- <button class="scrollToTopBtn"></button> -->
+             
             </div>   
-<!-- <div class="mybtn_pp enqbtn1">
-    <a href="https://api.whatsapp.com/send?phone=+919444951940" class="wa">Whatsapp</a>
-    <a href="mailto:geniusgemsacademy@gmail.com" class="my_popup_open" data-popup-ordinal="7" id="open_5945199">Mail Us</a></div>
-
-
-
-        </div> -->
 <!-- What We Teach Section -->
         <div class="what-we-teach" id="Subjects">
             <div class="topic-heading">
@@ -123,7 +117,7 @@
         </div>
 <!-- Testimonials section -->
         <div class="testimonials" id="Testimonials">
-            <div class="topic-heading">
+            <div class="topic-heading" id="testimonials-heading">
                 TESTIMONIALS
             </div>
             <div class="line">
@@ -131,6 +125,7 @@
             </div>
             <div class="testimonials-div">
                 <img class="testimonial-img" src="images/Testimonials.svg" alt="Genius Gems academy testimonials"> 
+                <img class="m-testimonial-img" src="images/m-Testimonials.svg" alt="Genius Gems academy testimonials"> 
             </div>
         </div>
 <!-- About Us section -->
@@ -194,7 +189,9 @@
                 <form action="https://formsubmit.co/geniusgemsacademy@gmail.com" method="POST" onsubmit="return validateEmail();">
                  
                     <div class="contact-main">
-                        
+                        <div class="m-contact-us-img">
+                            <img  src="images/m-contact-us.svg" alt="Genius Gems live tuition image" id="contact-img" >
+                        </div>
                         <div class="contact-form">
                             <!-- <input type="hidden" name="_next" value="thankyou.html"> -->
                             <input type="hidden" name="_subject" value="New submission from Website">
@@ -205,7 +202,7 @@
                             <input type="text" id="place" name="place" placeholder="City,Country" required>
                             <input type="text" id="Year" name="year" placeholder="School year of student" required>
                             <textarea id="subject" name="msg" placeholder="Message: Please be as detailed as possible and include details of subjects,exam boards, preferrable time to contact etc.)" style="height:200px"></textarea>
-                            <input type="submit" value="SCHEDULE DEMO" class="btn btn-dark btn-lg demo-btn"  > 
+                            <input type="submit" value="SCHEDULE DEMO" class="btn btn-dark btn-lg demo-btn"  id="form-btn-demo"> 
                         </div>
                         <div class="contact-image-div">
                             <img  src="images/contact-us.svg" alt="Genius Gems live tuition image" id="contact-img" >
@@ -231,7 +228,7 @@
 
 
         <div class="footer">
-            <div class="logo-div">
+            <div class="logo-div" id="footer-logo">
                 <a class="navbar-brand " href="index.html">
                     <img class="logo" src="images/Logo.svg" alt="Genius Gems Logo">
                     <p id="logo-text">GENIUS GEMS ACADEMY</p>

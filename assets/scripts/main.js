@@ -43,3 +43,32 @@ function scrollToTop() {
       behavior: "smooth"
     });
   }
+
+  function validateEmail(){
+
+    let email= document.getElementById("email").value;
+    let error = document.getElementById("error");
+    // let regexp = /^([a-zA-Z0-9\.-]+)@([a-zA-Z0-9-]+).([a-z]{2,4})(.[a-z]{2,4})?$/
+    // let regexp = /^([a-zA-Z0-9\.-]+)@([a-zA-Z0-9-]+).([a-z]{2,4})(.[a-z]{2,4})?$/
+    let regexp = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    
+    
+        
+        if(regexp.test(email))
+        {
+            console.log("Passed email check");
+            error.textContent = ""
+            return true;
+    
+        }
+        else
+        {
+            console.log(`Failed email check for ${email}`);
+            // alert(`${email} is not a valid email ID`)
+            // Changing content and color of content
+            error.textContent = "Please enter a valid email id"
+            error.style.color = "red"
+            return false;
+        }
+    
+    }

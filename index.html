@@ -15,7 +15,7 @@
     <script src="https://kit.fontawesome.com/44c693abb7.js" crossorigin="anonymous"></script>
     <!-- Custom stylesheet -->
    <link rel="stylesheet" href="assets/css/styles.css">
-   
+  
 </head>
 <body>
    
@@ -26,7 +26,7 @@
             <!-- Navbar starts here -->
             <nav class="navbar navbar-expand-sm navbar-light" >
                 <div class="logo-div">
-                    <a class="navbar-brand " href="index-responsive.html">
+                    <a class="navbar-brand " href="index.html">
                         <img class="logo" src="images/Logo.svg" alt="Genius Gems Logo">
                         <p id="logo-text">GENIUS GEMS ACADEMY</p>
                       </a>
@@ -77,7 +77,7 @@
                     <br>
                     <h4 class="hero-h3">Live online tuitions for Maths, Science and Computer Science for students of Primary, Secondary and GCSE levels as per UK and US curriculum.</h4>
                     
-                    <button type="button" class="btn btn-dark btn-lg demo-btn" >SCHEDULE DEMO</button>
+                    <button type="button" class="btn btn-dark btn-lg demo-btn" onclick="scrolltoSection('ContactUs')" >SCHEDULE DEMO</button>
                     <div class="blob">
                         <img src="images/hero-blob.png" id="hero-blob" alt ="Online tuition background image">
                     </div>
@@ -93,7 +93,7 @@
     <a href="https://api.whatsapp.com/send?phone=+919444951940" class="wa">Whatsapp</a>
     <a href="mailto:geniusgemsacademy@gmail.com" class="my_popup_open" data-popup-ordinal="7" id="open_5945199">Mail Us</a></div>
 
-<a href="javascript:" id="return-to-top" style="display: inline;"></a>
+
 
         </div> -->
 <!-- What We Teach Section -->
@@ -191,19 +191,21 @@
             <!-- Contact form section -->
 
             <div class="container">
-                <form action="index.html">
+                <form action="https://formsubmit.co/geniusgemsacademy@gmail.com" method="POST" onsubmit="return validateEmail();">
                  
                     <div class="contact-main">
                         
                         <div class="contact-form">
-
-                            <input type="text" id="pname" name="pname" placeholder="Parent's Name">
-                            <input type="text" id="email" name="email" placeholder="Email id">
-                            <input type="text" id="mobnumber" name="mobnumber" placeholder="Mobile Number (Preferrably Whatsapp number)">
-                            <input type="text" id="place" name="place" placeholder="City,Country">
-                            <input type="text" id="Year" name="year" placeholder="School year of student">
+                            <!-- <input type="hidden" name="_next" value="thankyou.html"> -->
+                            <input type="hidden" name="_subject" value="New submission from Website">
+                            <input type="text" id="pname" name="pname" placeholder="Parent's Name" required>
+                            <input type="text" id="email" name="email" placeholder="Email id" required>
+                            <span id="error"></span>
+                            <input type="text" id="mobnumber" name="mobnumber" placeholder="Mobile Number (Preferrably Whatsapp number)" required>
+                            <input type="text" id="place" name="place" placeholder="City,Country" required>
+                            <input type="text" id="Year" name="year" placeholder="School year of student" required>
                             <textarea id="subject" name="msg" placeholder="Message: Please be as detailed as possible and include details of subjects,exam boards, preferrable time to contact etc.)" style="height:200px"></textarea>
-                            <input type="submit" value="SCHEDULE DEMO" class="btn btn-dark btn-lg demo-btn" > 
+                            <input type="submit" value="SCHEDULE DEMO" class="btn btn-dark btn-lg demo-btn"  > 
                         </div>
                         <div class="contact-image-div">
                             <img  src="images/contact-us.svg" alt="Genius Gems live tuition image" id="contact-img" >
@@ -227,12 +229,45 @@
 
         </div>
 
+
+        <div class="footer">
+            <div class="logo-div">
+                <a class="navbar-brand " href="index.html">
+                    <img class="logo" src="images/Logo.svg" alt="Genius Gems Logo">
+                    <p id="logo-text">GENIUS GEMS ACADEMY</p>
+                  </a>
+           </div>
+           <div >
+               <p class="copyright">Copyright ©	2021 Genius Gems Academy | All Rights Reserved</p> 
+           </div>
+           <div class="media-links">
+                <div >
+                    <a href=" https://www.facebook.com/GeniusGemsAcademy" target="_blank"> <img  src="images/facebook.gif" alt="Facebook icon" id="fb-img" style="margin:3vw 1.5vw 0 5vw;" ></a>
+                                        
+                </div>
+                <div>
+                    <a href="https://api.whatsapp.com/send?phone=+917025125010" target="_blank"><img  src="images/whatsapp.gif" alt="Whatsapp icon" id="whatsapp-img" style="margin:3vw 1.5vw 0 0;" ></a>
+                    
+                </div>
+                <div>
+                    <a href="mailto:geniusgemsacademy@gmail.com" target="_blank" class="my_popup_open" data-popup-ordinal="7" id="open_5945199"><img  src="images/gmail.gif" alt="Gmail icon" id="gmail-img" style="margin:3vw 1.5vw 0 0;" ></a>
+                 
+                </div>
+           </div>
+          
+        </div>
+
+
     </div>
+
+
 </section>
+
    
     <!-- Hero section ends here -->
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="assets/scripts/main.js"></script>
+    
 </body>
 </html>

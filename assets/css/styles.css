@@ -160,7 +160,21 @@ font-size: 1.4vw;
 letter-spacing: 0.03em;
 z-index: 0;
 border-style: none;
+/* Button Animation Start */
+box-shadow: inset 0 0 0 0 #622C78;
+transition: ease-out 0.4s;
+outline: none;
+/* Button Animation End */
 }
+
+/* Button Hover Animation Start */
+.demo-btn:hover {
+    box-shadow:inset 300px 0 0 0 #622C78;
+    color: #FFBD5B;
+    cursor: pointer;
+}
+/* Button hover animation end */
+
 .title-text{
    position: relative;
    /* margin-bottom:226px;
@@ -346,7 +360,7 @@ padding-top: 1.5vw;
 
 }
 
-input[type=text], textarea {
+input[type=text], textarea{
     width:34vw;
     padding: 12px;
     border: 1px solid #ccc;
@@ -356,11 +370,20 @@ input[type=text], textarea {
     margin-bottom: 16px;
     resize: vertical;
     margin-left:5vw;
+    font-family:Roboto;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    
   }
  
-  
+  #error{
+    margin-left:5vw;
+   
+    border-radius: 4px;
+  }
   input:placeholder-shown ,textarea{
     font-style: italic;
+    background-color: #E1EBED;
  }
  input[type=submit]{
      margin-left:14vw;
@@ -376,7 +399,7 @@ input[type=text], textarea {
      
      width: 815px;
      height: 636px;
-   
+   margin-left:-6vw;
  }
 
  #contact-img{
@@ -413,6 +436,25 @@ input[type=text], textarea {
     line-height: 26px;
     margin:0.5vw 0 0 1vw;
  }
+/* Footer */
+ .footer{
+    background: linear-gradient(270deg, #D6FBF1 0%, #FBF2DF 100%);
+    margin-top:4vw;
+    display: flex;
+ }
+
+ .copyright{
+     margin:3.25vw 0vw 0vw 30vw;
+     text-align: center;
+     width:40vw;
+    
+ }
+ .media-links{
+     display: flex;
+ }
+
+
+
 /* Ipad Pro size */
 @media only screen and (max-width:1024px){
     

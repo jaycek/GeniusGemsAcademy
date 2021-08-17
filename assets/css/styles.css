@@ -842,20 +842,22 @@ input[type=text], textarea{
         height:10vw;
         width:10vw;
         margin:3vw 3vw 0 3vw;
+        margin-bottom: 2vw;
      }
      #fb-img,#gmail-img{
         height:9vw;
         width:9vw;
+        margin-bottom: 2vw;
      }
      .copyright{
         text-align: left;
         width:auto;
         margin-left: 0;
-        font-size:2vw;
+        font-size:2.5vw;
     }
     .media-links{
-        margin-left:12vw;
-        margin-bottom: 3vw;
+        margin-left:18vw;
+       
     }
     
 

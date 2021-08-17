@@ -64,7 +64,7 @@ function scrollToTop() {
         else
         {
             console.log(`Failed email check for ${email}`);
-            // alert(`${email} is not a valid email ID`)
+          
             // Changing content and color of content
             error.textContent = "Please enter a valid email id"
             error.style.color = "red"

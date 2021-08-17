@@ -848,12 +848,13 @@ input[type=text], textarea{
         width:9vw;
      }
      .copyright{
-        text-align: center;
+        text-align: left;
         width:auto;
         margin-left: 0;
+        font-size: 1.5vw;
     }
     .media-links{
-        margin-left:30%;
+        margin-left:15vw;
     }
     
 

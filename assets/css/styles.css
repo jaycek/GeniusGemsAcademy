@@ -841,18 +841,19 @@ input[type=text], textarea{
     #whatsapp-img{
         height:10vw;
         width:10vw;
-        margin:3vw 1.5vw 0 0;
+        margin:3vw 3vw 0 3vw;
      }
      #fb-img,#gmail-img{
         height:9vw;
         width:9vw;
      }
      .copyright{
-        text-align: center;
+        text-align: left;
         width:100vw;
+        margin-left: 0;
     }
     .media-links{
-        margin-left:50%;
+        margin-left:40%;
     }
     
 

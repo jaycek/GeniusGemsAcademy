@@ -437,12 +437,19 @@ input[type=text], textarea{
  #whatsapp-img{
     height:3vw;
     width:3vw;
+    margin:3vw 1.5vw 0 0;
  }
  #fb-img,#gmail-img{
     height:2.5vw;
     width:2.5vw;
  }
-
+ #fb-img{
+    margin:3vw 1.5vw 0 5vw;
+ }
+ #gmail-img{
+    margin:3vw 1.5vw 0 0;
+ }
+ 
  .contact-details{
     font-family: Roboto;
     font-style: normal;
@@ -828,6 +835,26 @@ input[type=text], textarea{
     #footer-logo{
         display: none;
     }
+    .footer{
+        display:block;
+    }
+    #whatsapp-img{
+        height:6vw;
+        width:6vw;
+        margin:3vw 1.5vw 0 0;
+     }
+     #fb-img,#gmail-img{
+        height:5vw;
+        width:5vw;
+     }
+     .copyright{
+        /* margin:3.25vw 0vw 0vw 30vw; */
+        text-align: center;
+        /* width:40vw; */
+       
+    }
+    
+
 }
 
 @media only screen and (max-width:360px){

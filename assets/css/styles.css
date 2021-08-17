@@ -851,11 +851,11 @@ input[type=text], textarea{
         text-align: left;
         width:auto;
         margin-left: 0;
-        font-size: 1vw;
+        font-size:2vw;
     }
     .media-links{
-        margin-left:8vw;
-        margin-bottom: 2vw;
+        margin-left:12vw;
+        margin-bottom: 3vw;
     }
     
 

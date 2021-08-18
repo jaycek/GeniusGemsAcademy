@@ -854,7 +854,7 @@ input[type=text], textarea{
     .scrollToTopBtn{
     height:8vw;
     width:8vw;
-    top:88vw;
+    top:116vw;
     right:5vw;
     opacity:1;
 
@@ -862,14 +862,14 @@ input[type=text], textarea{
     .whatsappfloat{
     height:10vw;
     width:10vw;
-   top:100vw;
+   top:128vw;
     right:4vw;
     }
 
     .gmailfloat{
     height:8vw;
     width:8vw;
-    top:112vw;
+    top:140vw;
     right:5vw;
     }
     .contact-text{
@@ -919,7 +919,7 @@ input:placeholder-shown,textarea{
     }
     .footer{
         display:block;
-        margin:0;
+        margin:4vw 0 0 0;
     }
     #whatsapp-img{
         height:10vw;
@@ -951,7 +951,10 @@ input:placeholder-shown,textarea{
         width:10vw;
      }
     
-   
+     #whatsapp-img-footer,#fb-img-footer,#gmail-img-footer{
+        height:10vw;
+        width:10vw;
+     }
 
 }
 

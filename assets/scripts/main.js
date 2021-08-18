@@ -5,6 +5,8 @@ var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
 
 scrollToTopBtn.addEventListener("click", scrollToTop);
 
+var whatsappfloat = document.querySelector(".whatsappfloat");
+var gmailfloat= document.querySelector(".gmailfloat");
 
 // To handle navbar clicks on same page sections
 function scrolltoSection(id){
@@ -29,10 +31,15 @@ function handleScroll() {
   
   if ((document.documentElement.scrollTop / scrollableHeight ) > GOLDEN_RATIO) {
     //show button
-     scrollToTopBtn.style.display = "block";
+    scrollToTopBtn.style.display = "block";
+    whatsappfloat.style.display="block";
+    gmailfloat.style.display="block";
+
   } else {
     //hide button
     scrollToTopBtn.style.display = "none";
+    whatsappfloat.style.display="none";
+    gmailfloat.style.display="none";
   }
 }
 

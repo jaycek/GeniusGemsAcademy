@@ -913,7 +913,7 @@ input:placeholder-shown,textarea{
     align-items: center;
     padding: 2.82517px 0px 0px 2.11888px;
     font-size: 4vw;
-
+    margin-bottom: 4vw;
     }
     #footer-logo{
         display: none;
@@ -943,12 +943,16 @@ input:placeholder-shown,textarea{
         margin:6vw 0 6vw 0;
         font-size:2.5vw;
     }
+    .m-copyright-div{
+        margin:6vw 0 6vw 0;
+    }
     .media-links{
         margin-left:26vw;
     }
     .footer-media-div{
         height:10vw;
         width:10vw;
+        margin-right:3vw;
      }
     
      #whatsapp-img-footer,#fb-img-footer,#gmail-img-footer{

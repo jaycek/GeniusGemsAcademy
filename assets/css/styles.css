@@ -46,8 +46,6 @@
 
 .scrollToTopBtn{
     position:fixed;
-    /* bottom:3.6vw;
-    right:3.6vw; */
     bottom:13vw;
     right:3.2vw;
     z-index: 100;
@@ -777,142 +775,143 @@ input[type=text], textarea{
 }
 
 
-    .section-main{
-        display:block;
-        position:relative;
-    }
- 
-    .what-we-teach{
-        margin-left:0;
-        margin-right:0;
-     }
-     .sub-maths,.sub-physics,.sub-chemistry,.sub-biology, .sub-computer{
-        width: 100%;
-        height: auto;
-        margin:auto;
-      
-     }
-     .sub-maths{
-         margin-top:4vw;
-     }
-     .sub-physics{
-         margin-left:-2vw;
-     }
-     .sub-chemistry{
-        margin-left:1vw;
-        width: 103%;
-     }
-     .sub-computer{
-        margin-left:4vw;
-        margin-top:4vw;
-     }
-     .sub-biology{
-         margin-left:3vw;
-     }
-     .sub-img{
-         width:100%;
-         height:auto;
-     }
-     .line{
-         width: 14vh;
-      
-     }
-     .topic-heading{
-         margin-bottom:0;
-         font-size:5vw;
-     }      
-     #testimonials-heading{
-         display: none;
-     } 
-     .testimonial-img{
-        display: none;
-     }
-     .m-testimonial-img{
-         display: block;
-         margin-left: 10vw;
-     }
-     .aboutpara{
-         line-height: 2.75vh;
-         font-size: 3.5vw;
-         font-weight: 400;
-         text-align: justify;
-         letter-spacing: 3.5%;
-         margin-left: 10vw;
-     }
-     .whyus-cardblock1,.whyus-cardblock2{
-         display: block;
-     }
-     .why-us-card1,.why-us-card2{
-         margin:4% 2% 2% 1%;
-     }
-     .why-us-card3,.why-us-card4{
-        margin:4% 2% 2% 3%;
-    }
+.section-main{
+    display:block;
+    position:relative;
+}
 
-     .why-us-img{
+.what-we-teach{
+    margin-left:0;
+    margin-right:0;
+    }
+    .sub-maths,.sub-physics,.sub-chemistry,.sub-biology, .sub-computer{
+    width: 100%;
+    height: auto;
+    margin:auto;
+    
+    }
+    .sub-maths{
+        margin-top:4vw;
+    }
+    .sub-physics{
+        margin-left:-2vw;
+    }
+    .sub-chemistry{
+    margin-left:1vw;
+    width: 103%;
+    }
+    .sub-computer{
+    margin-left:4vw;
+    margin-top:4vw;
+    }
+    .sub-biology{
+        margin-left:3vw;
+    }
+    .sub-img{
         width:100%;
         height:auto;
-     }
-     .scrollToTopBtn{
-         height:8vw;
-         width:8vw;
-        top:50vw;
-        right:2vw;
-       
-     }
-     .whatsappfloat{
-        height:10vw;
-        width:10vw;
-       top:26vw;
-       right:1vw;
-     }
-
-     .gmailfloat{
-        height:8vw;
-        width:8vw;
-       top:38vw;
-       right:2vw;
-     }
-     .contact-text{
-         font-size: 4.2vw;
-         letter-spacing: 2%;
-         line-height: 3.5vh;
-     }
-     .contact-image-div{
-         display: none;
-     }
-     .contact-main{
-        display:block;
     }
-    .m-contact-us-img{
+    .line{
+        width: 14vh;
+    
+    }
+    .topic-heading{
+        margin-bottom:0;
+        font-size:5vw;
+    }      
+    #testimonials-heading{
+        display: none;
+    } 
+    .testimonial-img{
+    display: none;
+    }
+    .m-testimonial-img{
         display: block;
-        width:100%;
-        height: auto;
+        margin-left: 10vw;
     }
-    #contact-img{
-        margin-top: 2vw;
-        width: 334px;
-        height: 231px;
+    .aboutpara{
+        line-height: 2.75vh;
+        font-size: 3.5vw;
+        font-weight: 400;
+        text-align: justify;
+        letter-spacing: 3.5%;
+        margin-left: 10vw;
+    }
+    .whyus-cardblock1,.whyus-cardblock2{
+        display: block;
+    }
+    .why-us-card1,.why-us-card2{
+        margin:4% 2% 2% 1%;
+    }
+    .why-us-card3,.why-us-card4{
+    margin:4% 2% 2% 3%;
+}
+
+    .why-us-img{
+    width:100%;
+    height:auto;
+    }
+    .scrollToTopBtn{
+    height:8vw;
+    width:8vw;
+    top:88vw;
+    right:5vw;
+    opacity:1;
+
+    }
+    .whatsappfloat{
+    height:10vw;
+    width:10vw;
+   top:100vw;
+    right:4vw;
     }
 
-    input[type=text], textarea{
-        width:88vw;
-        margin-left: 3vw;
+    .gmailfloat{
+    height:8vw;
+    width:8vw;
+    top:112vw;
+    right:5vw;
+    }
+    .contact-text{
+        font-size: 4.2vw;
+        letter-spacing: 2%;
+        line-height: 3.5vh;
+    }
+    .contact-image-div{
+        display: none;
+    }
+    .contact-main{
+    display:block;
+}
+.m-contact-us-img{
+    display: block;
+    width:100%;
+    height: auto;
+}
+#contact-img{
+    margin-top: 2vw;
+    width: 334px;
+    height: 231px;
+}
 
-    }
-    input:placeholder-shown,textarea{
-        font-size:3vw;
-    }
-    #form-btn-demo{
-        margin-left:24vw;
-        box-shadow: 3.53147px 2.82517px 2.82517px rgba(0, 0, 0, 0.25);
-        border-radius: 14.8322px;
-        width: 166.69px;
-        height: 34.61px;
-        justify-content: center;
-        align-items: center;
-        padding: 2.82517px 0px 0px 2.11888px;
-        font-size: 4vw;
+input[type=text], textarea{
+    width:88vw;
+    margin-left: 3vw;
+
+}
+input:placeholder-shown,textarea{
+    font-size:3vw;
+}
+#form-btn-demo{
+    margin-left:24vw;
+    box-shadow: 3.53147px 2.82517px 2.82517px rgba(0, 0, 0, 0.25);
+    border-radius: 14.8322px;
+    width: 166.69px;
+    height: 34.61px;
+    justify-content: center;
+    align-items: center;
+    padding: 2.82517px 0px 0px 2.11888px;
+    font-size: 4vw;
 
     }
     #footer-logo{
@@ -920,6 +919,7 @@ input[type=text], textarea{
     }
     .footer{
         display:block;
+        margin:0;
     }
     #whatsapp-img{
         height:10vw;
@@ -941,12 +941,17 @@ input[type=text], textarea{
         width:auto;
         margin-left: 0;
         font-size:2.5vw;
+        
     }
     .media-links{
         margin-left:26vw;
-       
     }
+    .footer-media-div{
+        height:10vw;
+        width:10vw;
+     }
     
+   
 
 }
 

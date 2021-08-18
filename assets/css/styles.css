@@ -208,9 +208,9 @@ letter-spacing: 0.03em;
 z-index: 0;
 border-style: none;
 /* Button Animation Start */
-box-shadow: inset 0 0 0 0 #622C78;
+/* box-shadow: inset 0 0 0 0 #622C78;*/
 transition: ease-out 0.4s;
-outline: none;
+/*outline: none; */
 /* Button Animation End */
 }
 

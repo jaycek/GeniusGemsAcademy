@@ -792,6 +792,7 @@ input[type=text], textarea{
     }
     .sub-maths{
         margin-top:4vw;
+        margin-left: 1vw;
     }
     .sub-physics{
         margin-left:-2vw;
@@ -854,7 +855,7 @@ input[type=text], textarea{
     .scrollToTopBtn{
     height:8vw;
     width:8vw;
-    top:116vw;
+    top:136vw;
     right:5vw;
     opacity:1;
 
@@ -862,14 +863,14 @@ input[type=text], textarea{
     .whatsappfloat{
     height:10vw;
     width:10vw;
-   top:128vw;
+   top:148vw;
     right:4vw;
     }
 
     .gmailfloat{
     height:8vw;
     width:8vw;
-    top:140vw;
+    top:160vw;
     right:5vw;
     }
     .contact-text{
@@ -939,9 +940,8 @@ input:placeholder-shown,textarea{
         display: block;
         text-align: center;
         width:auto;
-        margin-left: 0;
+        margin:2vw 0 2vw 0;
         font-size:2.5vw;
-        
     }
     .media-links{
         margin-left:26vw;

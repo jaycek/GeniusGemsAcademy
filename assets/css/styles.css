@@ -71,7 +71,7 @@
 }
 .logo-div{
     width:3.19vw;
-    height:10.19vh;
+    height:3vw;
     margin-bottom:2vw;
     
 }
@@ -159,7 +159,7 @@ font-family: Proxima Soft Condensed;
 font-style: normal;
 font-weight: 600;
 font-size: 3.25vw;
-line-height: 5vh;
+line-height: 3.5vw;
 letter-spacing: 0.02em;
 color: #8D8C53;
 }
@@ -187,7 +187,7 @@ color: #8D8C53;
     font-size:1.8vw;
     width:30vw;
     height:10vw;
-    line-height: 4.5vh;
+    line-height: 2.5vw;
     color: #622C78;
     z-index: 0;
     
@@ -197,7 +197,7 @@ color: #8D8C53;
 
 border-radius:21px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-margin:0.5vw 0 0 8vw;
+margin:2vw 0 0 8vw;
 color: #622C78;
 background-color: #FFBD5B;
 font-family: Proxima Soft Condensed;
@@ -224,9 +224,7 @@ transition: ease-out 0.4s;
 
 .title-text{
    position: relative;
-   /* margin-bottom:226px;
-   margin-right:100px; */
-   
+  
 }
 
 
@@ -234,7 +232,7 @@ transition: ease-out 0.4s;
 
 position:relative;
 width: 36vw;
-height: 78vh;
+height: 36.85vw;
 left:0;
 top: -13vw; 
 z-index: -1;
@@ -266,14 +264,14 @@ width:100%;
 font-style: normal;
 font-weight: 600;
 font-size: 2.75vw;
-line-height: 5vh;
+line-height:2vw;
 letter-spacing: 0.02em;
 margin-bottom: 1.5vw;
 padding-top: 1.5vw;
 }
 
 .line{
-    width: 34vh;
+    width: 20vw;
     margin:auto;
     height: 0.2vw;
     text-align: center;
@@ -293,7 +291,8 @@ padding-top: 1.5vw;
 }
 .sub-physics{
     margin-top:3vw;
-    margin-left:42vw;
+    margin-right: 2vw;
+    float:right;
  
 }
 .phy-img{
@@ -311,7 +310,8 @@ padding-top: 1.5vw;
 
 .sub-biology{
     margin-top:3vw;
-    margin-left:42vw;
+    /* margin-left:42vw; */
+    float:right;
 }
 .sub-computer{
     margin-top:3vw;
@@ -353,27 +353,34 @@ padding-top: 1.5vw;
     font-size:1.8vw;
     width:80%;
     height:100%;
-    line-height: 4.5vh;
+    line-height: 2.5vw;
     color: #622C78;
+    text-align: justify;
+     }
 
-  }
-
-  .why-us-card1,.why-us-card2{
+  .why-us-card1, .why-us-card3{
+      /* float:left; */
       margin-left:8vw;
+      text-align: left;
       margin-top: 4vw;
 
   }
-  .why-us-card3{
-    margin-left:8vw;
+ 
+  .why-us-card2,.why-us-card4{
+   
+    text-align: right;
+    
     margin-top: 4vw;
 }
-
-.why-us-card4{
-    margin-left:8vw;
-    margin-top: 4vw;
+#why-us-img1,#why-us-img3{
+    float:left;
+}
+#why-us-img3,#why-us-img4{
+    float:right;
 }
 .why-us-img{
     filter: drop-shadow(17px 14px 12px rgba(0, 0, 0, 0.25));
+    width:100%;
 }
   .whyus-cardblock1{
       display: flex;
@@ -391,7 +398,7 @@ padding-top: 1.5vw;
 font-style: normal;
 font-weight: 600;
 font-size: 2.15vw;
-line-height: 5vh;
+line-height: 5vw;
 letter-spacing: 0.02em;
 margin-bottom: 1.5vw;
 padding-top: 1.5vw;
@@ -513,6 +520,9 @@ input[type=text], textarea{
     margin-top:4vw;
     display: flex;
  }
+#footer-logo{
+    margin-bottom: 4vw;
+}
 
  .copyright{
      margin:3.25vw 0vw 0vw 30vw;
@@ -527,18 +537,60 @@ input[type=text], textarea{
      display: flex;
  }
 
+ /* Thank you page */
+.thankyou-section{
+    width:100%;
+    border-radius: 24px;
+    background: linear-gradient(180deg, #098890 0%, rgba(225, 235, 237, 0) 143.41%, rgba(41, 151, 158, 0.39) 143.41%);
+}
 
+.thankyou-img-div{
+    width: 53vw;
+    height: 636px;
+    margin-left: 0;
+    margin-top: 6vw;
+}
 
+.thankyou-title{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2vw;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0.02em;
+    color: #D7FAF0;
+    margin:40% 0 0 30%;
+    
+}
+.thankyou-content1,.thankyou-content2{
+    font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 1.5vw;
+line-height: 2.5vw;
+
+align-items: center;
+text-align: justify;
+letter-spacing: 0.01em;
+margin-left:1vw;
+}
+.thankyou-content1{
+    margin-top:2vw;
+    margin-bottom: 1vw;
+}
 /* Ipad Pro size */
 @media only screen and (max-width:1024px){
     
     .hero-img-div{
         height:auto;
+        margin-left: 0;
+        margin-top: 0;
     }
     .hero-h1{
-        line-height: 2vh;   
+        line-height: 2vw;   
         margin-left:8vw;
-        margin-top:-2vw;
+        margin-top: 4vw;
     }
 
     .hero-h2{
@@ -572,7 +624,7 @@ input[type=text], textarea{
        
     }
     .navbar-nav{
-       margin-top:-10vw;
+       margin-top:0;
     }
     .nav-item{
         margin-top: 2vw !important;
@@ -583,15 +635,8 @@ input[type=text], textarea{
         height:auto !important;
         width:100% ;
         max-width:100%;
-        /* margin-top:-8vw; */
-        
         }
 
-   .hero-img-div{
-           margin-left:-4vw;
-           margin-top: -4vw;
-          
-        }
     .section-sub{
         width:75%;
         max-width:75%;
@@ -611,7 +656,7 @@ input[type=text], textarea{
         margin:4% 20% 2% 20%;
     }
     .line{
-        width: 15vh;
+        width: 18vw;
     }
     .topic-heading{
         margin-bottom:0;
@@ -631,8 +676,9 @@ input[type=text], textarea{
         display: block;
     }
     .why-us-card1,.why-us-card2,.why-us-card3,.why-us-card4{
-        margin:4% 20% 2% 22%;
+        margin:4% 2% 2% 2%;
     }
+   
     .contact-main{
         margin-left: -6vw;
     }
@@ -771,7 +817,7 @@ input[type=text], textarea{
         font-size:4vw;
     }
     .line{
-        width: 40vh;
+        width: 30vw;
         margin-top:2vw;
     }
     .contact-text{
@@ -867,7 +913,7 @@ input[type=text], textarea{
 .logo-div{
     margin-top: 1.8vw;
     width:4vw;
-    height:11vh;
+    height:11vw;
     margin-left:2vw;
     
 }
@@ -947,7 +993,7 @@ input[type=text], textarea{
         height:auto;
     }
     .line{
-        width: 14vh;
+        width: 22vw;
     
     }
     .topic-heading{
@@ -965,7 +1011,7 @@ input[type=text], textarea{
         margin-left: 10vw;
     }
     .aboutpara{
-        line-height: 2.75vh;
+        line-height: 4.2vw;
         font-size: 3.5vw;
         font-weight: 400;
         text-align: justify;
@@ -1010,7 +1056,7 @@ input[type=text], textarea{
     .contact-text{
         font-size: 4.2vw;
         letter-spacing: 2%;
-        line-height: 3.5vh;
+        line-height: 4.6vw;
     }
     .contact-image-div{
         display: none;

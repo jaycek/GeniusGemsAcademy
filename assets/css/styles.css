@@ -166,22 +166,18 @@ color: #8D8C53;
 
 
 .hero-h2{
- /* display:contents; */
- /* margin-left:12vw; */
     padding:0;
     font-family: Proxima Soft Condensed;
     font-style: normal;
     font-weight: 300;
     font-size: 3vw;
-    /* line-height: 100px; */
     color: #8D8C53;
 }
 
 .hero-h3{
     padding:0;
-        margin-top:1vw;
-        /* margin-left:12vw; */
-        font-family: Proxima Soft Condensed;
+    margin-top:1vw;
+    font-family: Proxima Soft Condensed;
     font-style: normal;
     font-weight: 400;
     font-size:1.8vw;
@@ -229,14 +225,12 @@ transition: ease-out 0.4s;
 
 
 #hero-blob{
-
 position:relative;
 width: 36vw;
 height: 36.85vw;
 left:0;
 top: -13vw; 
 z-index: -1;
-
 }
 
 .section-main{
@@ -277,45 +271,49 @@ padding-top: 1.5vw;
     text-align: center;
     background-color:#FFBD5B;
 }
+.subjects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:2vw;
+}
 
 .sub-maths{
     margin-top:3vw;
-    margin-left:4vw;
-   
+    
 }
 
 
 
 .maths-img{
-    filter: drop-shadow(17px 19px 14px rgba(0, 0, 0, 0.25));
+    
 }
 .sub-physics{
     margin-top:3vw;
-    margin-right: 2vw;
-    float:right;
- 
+    
 }
 .phy-img{
-    filter: drop-shadow(-17px -19px 14px rgba(0, 0, 0, 0.25));
+    /* filter: drop-shadow(-17px -19px 14px rgba(0, 0, 0, 0.25)); */
 }
 
 .sub-chemistry{
     margin-top:3vw;
-    margin-left:4vw;
+    /* margin-left:4vw; */
 }
 
 .chem-img{
-    filter: drop-shadow(17px 19px 14px rgba(0, 0, 0, 0.25));
+    /* filter: drop-shadow(17px 19px 14px rgba(0, 0, 0, 0.25)); */
 }
 
 .sub-biology{
     margin-top:3vw;
     /* margin-left:42vw; */
-    float:right;
+    /* float:right; */
 }
 .sub-computer{
     margin-top:3vw;
-    margin-left:8vw;
+    /* margin-left:8vw; */
     margin-bottom:3vw;
 }
 
@@ -359,35 +357,32 @@ padding-top: 1.5vw;
      }
 
   .why-us-card1, .why-us-card3{
-      /* float:left; */
-      margin-left:8vw;
-      text-align: left;
-      margin-top: 4vw;
-
-  }
+         /* margin-left:8vw; */
+       margin-top: 4vw;
+    }
  
   .why-us-card2,.why-us-card4{
-   
-    text-align: right;
-    
-    margin-top: 4vw;
-}
-#why-us-img1,#why-us-img3{
-    float:left;
-}
-#why-us-img3,#why-us-img4{
-    float:right;
-}
+           margin-top: 4vw;
+  }
+
 .why-us-img{
     filter: drop-shadow(17px 14px 12px rgba(0, 0, 0, 0.25));
     width:100%;
+     /* width:35.81vw;
+    height:49.61vw;  */
 }
   .whyus-cardblock1{
       display: flex;
+      gap:2vw;
+      align-items: center;
+      justify-content: center;
   }
   .whyus-cardblock2{
     display: flex;
-    margin-left: 2vw;
+    gap:4vw;
+    align-items: center;
+    /* margin-left: 2vw; */
+    justify-content: center;
 }
 
 /* Contact Us */
@@ -445,15 +440,15 @@ input[type=text], textarea{
 }
 .contact-image-div{
      
-     width: 815px;
-     height: 636px;
-         margin-left:-6vw;
+     width: 54.333vw;
+     height: 42.4vw;
+    margin-left:-6vw;
  }
 
  #contact-img{
     background-repeat: no-repeat;
     width:54vw;
-    height: 636px;
+    height: 42.4vw;
     padding:2vw;
     margin-top:-5vw;
  }
@@ -510,8 +505,10 @@ input[type=text], textarea{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
-    line-height: 26px;
+    /* font-size: 15px; */
+    font-size: 1vw;
+    /* line-height: 26px; */
+    line-height: 1.733vw;
     margin:0.5vw 0 0 1vw;
  }
 /* Footer */
@@ -601,13 +598,13 @@ margin-left:1vw;
         line-height: 2.5vw;   
         margin-left:8vw;
     }
-    .demo-btn{
-        margin-top:2vw;
+    #hero-demo-btn{
+        margin-top:3vw;
         margin-left:15vw;
     }
     #hero-blob{
         height:auto;
-        width: 39vw;
+        width: 38vw;
         left:5vw;
     }
     .logo-div{
@@ -646,20 +643,12 @@ margin-left:1vw;
        margin-left:0;
        margin-right:0;
     }
-    .sub-maths,.sub-physics,.sub-chemistry{
-        margin:4% 20% 2% 15%;
-    }
-    .sub-biology{
-        margin:4% 20% 2% 18%;
-    }
-    .sub-computer{
-        margin:4% 20% 2% 20%;
-    }
+   
     .line{
         width: 18vw;
     }
     .topic-heading{
-        margin-bottom:0;
+        margin-bottom:1vw;
     }       
     .testimonial-img{
         height:auto !important;
@@ -672,29 +661,23 @@ margin-left:1vw;
         font-size: 2.5vw;
        
     }
-    .whyus-cardblock1,.whyus-cardblock2{
-        display: block;
-    }
-    .why-us-card1,.why-us-card2,.why-us-card3,.why-us-card4{
-        margin:4% 2% 2% 2%;
-    }
-   
-    .contact-main{
-        margin-left: -6vw;
+     .contact-main{
+        margin-left: -2vw;
     }
     input[type=text], textarea{
-        width:44vw;
+        width:40vw;
     }
     #fb-img,#gmail-img,#whatsapp-img{
         height:5vw;
         width:5vw;
-        margin-top: -16vw;
+        margin-top: 0;
     }
     .fb, .whatsapp,.gmail{
          margin-bottom: 4vw;
     }
     .contact-details{
-        margin-top: -8vw;
+        margin-top: 2vw;
+        font-size: 1.2vw;
     }
     .whatsappfloat{
         height:5vw;
@@ -711,6 +694,17 @@ margin-left:1vw;
    
 }
 
+@media only screen and (max-width:991px){
+   .contact-details{
+        font-size: 1.5vw;
+   }
+   input:placeholder-shown,textarea{
+    font-size:1.5vw;
+}
+
+}
+
+/* Ipad size */
 @media only screen and (max-width:768px){
 
 .logo{
@@ -721,7 +715,7 @@ margin-left:1vw;
         max-height:100%;
     }
     .logo-div{
-        margin-top:-1vw;
+        margin-top:1vw;
     }
     
     #logo-text{
@@ -730,7 +724,7 @@ margin-left:1vw;
        
     }
     .nav-item{
-        margin-top: 8vw !important;
+          /* margin-top: 8vw !important; */
         font-size: 1.9vw;
     }
     .navbar-nav{
@@ -746,8 +740,8 @@ margin-left:1vw;
     .hero-img{
        
         height:auto !important;
-        width:100% ;
-        max-width:100%;
+        width:120% ;
+        max-width:120%;
         margin-top:0;
         
         }
@@ -759,59 +753,37 @@ margin-left:1vw;
         }
 
     .hero-h1{
-      margin-top:4vw;
-      font-size:2.8vw;
+      margin-top:3.5vw;
+      font-size:4vw;
       margin-bottom: 2vw;
    }
    .hero-h2{
-       font-size: 2.8vw;
+       font-size: 3.5vw;
        
    }
    .hero-h3{
   
     margin-top:-1.8vw;
-    font-size:2vw;
-    line-height: 2.5vw;
+    font-size:2.4vw;
+    line-height: 2.8vw;
        
    }
-    
-   .demo-btn{
-    font-size: 2vw;
-    margin-top:2vw;
-    /* margin-left: 12vw; */
-   }  
 
-   .sub-maths,.sub-physics,.sub-chemistry,.sub-biology, .sub-computer{
-    width: 100%;
-    height: auto;
-    margin:auto;
-    
-    }
-    .sub-maths{
-        margin-top:4vw;
-        margin-left: 1vw;
-    }
-    .sub-biology{
-        margin-left:3vw;
-    }
-    .sub-computer{
-        margin-left:6vw;
-        margin-top:4vw;
-        margin-bottom: 4vw;
-    }
-    .aboutpara{
+   #hero-demo-btn{
+    font-size: 2vw;
+    margin-top:8vw;
+   }
+   .sub-img{
+    width:100%;
+    height:auto;
+} 
+   .aboutpara{
         line-height: 3.5vw;
         font-size: 3vw;
         font-weight: 400;
         text-align: justify;
         letter-spacing: 3.5%;
         margin-left: 10vw;
-    }
-    .why-us-card1,.why-us-card2{
-        margin:4% 2% 2% 13%;
-    }
-    .why-us-card3,.why-us-card4{
-    margin:4% 2% 2% 13%;
     }
     .topic-heading{
         font-size:4vw;
@@ -823,21 +795,21 @@ margin-left:1vw;
     .contact-text{
         font-size: 3vw;
         letter-spacing: 2%;
-      
+    
         text-align: center;
     }
     .contact-main{
-        margin-left:-12vw;
+        margin-left:-2vw;
     }
     
 input[type=text], textarea{
     width:40vw;
-    padding: 12px;
+    padding: 0.8vw;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 1.5vw;
-    margin-bottom: 16px;
+    margin-bottom: 1.067vw;
     resize: vertical;
     margin-left:8vw;
     
@@ -846,6 +818,9 @@ input[type=text], textarea{
   }
   input[type=submit]{
     margin-left:14vw;
+}
+#form-btn-demo{
+    font-size:2vw;
 }
     #contact-img{
         width:53.05vw;
@@ -859,7 +834,8 @@ input[type=text], textarea{
         margin-top: 0vw;
     }
     .contact-details{
-        margin-top: 0;
+        font-size:1.8vw;
+        margin-top: 2vw;
     }
     .fb,.whatsapp,.gmail{
          margin-bottom: 4vw;
@@ -883,11 +859,64 @@ input[type=text], textarea{
         }
 
 }
-@media only screen and (max-width:414px){
 
+@media only screen and (max-width:576px){
     .navbar-nav{
         background-color:#622C78;
       }
+    .nav-item{
+        
+        font-size:4vw;
+        text-align: center;
+        padding:2vw;
+        border-bottom: 1px solid white;
+        margin-bottom: 2vw;
+        margin-left:1vw;
+        transition: ease-out 0.4s;
+    
+    }
+    .nav-link{
+        color: #fff!important;
+    }
+    .logo{
+       
+        margin-left:1vw;
+        width:120%;
+        max-width:120%;
+        max-height:100%;
+    }
+    .logo-div{
+        margin-top: 1.8vw;
+        width:4vw;
+        height:11vw;
+        margin-left:2vw;
+        
+    }
+    .sub-img{
+        width:95%;
+    }
+    .contact-main{
+        margin:-2vw;
+    }
+    .contact-details{
+     font-size:2vw;
+    }
+    #form-btn-demo{
+        font-size:2.5vw;
+    }
+    input:placeholder-shown,textarea{
+        font-size:1.7vw;
+    }
+    .scrollToTopBtn{
+        height:6.5vw;
+        width:6.5vw;
+    }
+}
+@media only screen and (max-width:414px){
+
+.navbar-nav{
+    background-color:#622C78;
+    }
 .nav-item{
     
     font-size:4vw;
@@ -964,34 +993,10 @@ input[type=text], textarea{
     margin-left:0;
     margin-right:0;
     }
-    .sub-maths,.sub-physics,.sub-chemistry,.sub-biology, .sub-computer{
-    width: 100%;
-    height: auto;
-    margin:auto;
-    
-    }
-    .sub-maths{
-        margin-top:4vw;
-        margin-left: 1vw;
-    }
-    .sub-physics{
-        margin-left:-2vw;
-    }
-    .sub-chemistry{
-    margin-left:1vw;
-    width: 103%;
-    }
-    .sub-computer{
-    margin-left:4vw;
-    margin-top:4vw;
-    }
-    .sub-biology{
-        margin-left:3vw;
-    }
-    .sub-img{
-        width:100%;
+   .sub-img{
+        width:95%;
         height:auto;
-    }
+    } 
     .line{
         width: 22vw;
     
@@ -1000,7 +1005,7 @@ input[type=text], textarea{
         margin-bottom:0;
         font-size:4vw;
     }      
-    #testimonials-heading{
+    #testimonials-heading,#testimonials-heading-line{
         display: none;
     } 
     .testimonial-img{
@@ -1035,7 +1040,7 @@ input[type=text], textarea{
     .scrollToTopBtn{
     height:8vw;
     width:8vw;
-    top:126vw;
+    bottom:28vw;
     right:5vw;
     opacity:1;
 
@@ -1043,14 +1048,14 @@ input[type=text], textarea{
     .whatsappfloat{
     height:10vw;
     width:10vw;
-   top:138vw;
+   bottom:14vw;
     right:4vw;
     }
 
     .gmailfloat{
     height:8vw;
     width:8vw;
-    top:150vw;
+    bottom:4vw;
     right:5vw;
     }
     .contact-text{
@@ -1071,8 +1076,10 @@ input[type=text], textarea{
 }
 #m-contact-img{
     margin-top: 2vw;
-    width: 334px;
-    height: 231px;
+    /* width: 334px; */
+    width: 92.778vw;
+    height:64.167vw;
+    /* height: 231px; */
 }
 
 input[type=text], textarea{
@@ -1141,7 +1148,7 @@ input:placeholder-shown,textarea{
         margin-right:3vw;
      }
      .contact-main{
-        margin-left: 0vw;
+        margin-left: 0;
     }
 
 
@@ -1182,3 +1189,27 @@ input:placeholder-shown,textarea{
 
 }
  
+@media only screen and (max-width:321px){
+    .m-testimonial-img{
+        width:95%;
+    }
+    .contact-main {
+        margin-left: 4vw;
+    }
+    #form-btn-demo {
+        margin-left: 16vw;
+    }
+    input:placeholder-shown,textarea{
+        font-size:3.4vw;
+    }
+    .m-hero-img-text {
+        margin-left: 10vw;
+    }
+    #hero-demo-btn {
+        margin-top: -110vw;
+    }
+    .topic-heading{
+        font-size:5vw;
+    }
+
+}

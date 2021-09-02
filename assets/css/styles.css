@@ -2,12 +2,10 @@
     margin:0;
     padding:0;
 }
-
 .container-fluid{
     margin:0!important;
     padding:0 !important;
 }
-
 .gmailfloat{
     position:fixed;
     bottom:7vw;
@@ -23,14 +21,11 @@
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     display:none;
-    
 }
-
 .whatsappfloat{
     position:fixed;
     bottom:2vw;
     right:2.8vw;
-   
     z-index: 100;
     opacity: 1;
     width:4vw;
@@ -41,9 +36,7 @@
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     display:none;
-    
 }
-
 .scrollToTopBtn{
     position:fixed;
     bottom:13vw;
@@ -56,24 +49,19 @@
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     display:none;
-    
 }
 .scrollToTopBtn:hover{
     opacity: 1;
 }
-
-
 /* Hero section starts here */
 /* Navbar starts */
 #hero-section{
       height:100vh;
-   
 }
 .logo-div{
     width:3.19vw;
     height:3vw;
     margin-bottom:2vw;
-    
 }
 .logo{
     margin: 1vw 0 0 6vw;
@@ -83,19 +71,15 @@
     max-width:100%;
     margin-top: 0vw ;
 }
-
 #logo-text{
     font-family:"Proxima Soft Condensed";
     font-size:1.43vw;
     margin-top: 3vw;
     color: #848448;
     display:inline-block;
-
 }
-
 .navbar-nav{
     margin-right:6.33vw;
-
 }
 .nav-item{
     color:#0000;
@@ -103,14 +87,12 @@
     font-family:"Proxima Soft Condensed";
     margin-top: 1.95vw ;
     margin-right:1.21vw;
-    
 }
 .navbar-light{
     color:darkblue!important;
 }
 .navbar-toggler-icon{
     font-size: 0.6em;
-    
 }
 .navbar-toggler{
     padding-left:1.5%;
@@ -119,7 +101,6 @@
     padding-bottom: 1%;
     margin-right:1%;
     margin-bottom:15% !important;
-    
 }
 nav-link{
     cursor: pointer !important;
@@ -128,9 +109,7 @@ nav-link{
     cursor: pointer !important;
 }
 /* Navbar ends */
-
 /* Main Hero section starts */
-
 .m-hero-img-text{
     display: none;
 }
@@ -139,21 +118,16 @@ background-repeat: no-repeat;
 position:relative;
 width:100%;
 max-width:100%;
-
 }
-
 .hero-img-div{
     width: 100vw; 
     height:100vh;
     margin-left:-4vw;
    margin-top: 0;
-  
 }
-
 .hero-img-m{
     display: none;
 }
-
 .hero-h1{
 margin-top:9vw;
 padding:0;
@@ -166,8 +140,6 @@ line-height: 3.5vw;
 letter-spacing: 0.02em;
 color: #8D8C53;
 }
-
-
 .hero-h2{
     padding:0;
     font-family: Proxima Soft Condensed;
@@ -176,7 +148,6 @@ color: #8D8C53;
     font-size: 3vw;
     color: #8D8C53;
 }
-
 .hero-h3{
     padding:0;
     margin-top:1vw;
@@ -189,11 +160,8 @@ color: #8D8C53;
     line-height: 2.5vw;
     color: #622C78;
     z-index: 0;
-    
 }
-
 .demo-btn{
-
 border-radius:21px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 margin:2vw 0 0 8vw;
@@ -206,27 +174,16 @@ font-size: 1.4vw;
 letter-spacing: 0.03em;
 z-index: 0;
 border-style: none;
-/* Button Animation Start */
-/* box-shadow: inset 0 0 0 0 #622C78;*/
 transition: ease-out 0.4s;
-/*outline: none; */
-/* Button Animation End */
 }
-
-/* Button Hover Animation Start */
-.demo-btn:hover {
+.demo-btn:hover{
     box-shadow:inset 300px 0 0 0 #622C78;
     color: #FFBD5B;
     cursor: pointer;
 }
-/* Button hover animation end */
-
 .title-text{
    position: relative;
-  
 }
-
-
 #hero-blob{
 position:relative;
 width: 36vw;
@@ -235,36 +192,30 @@ left:0;
 top: -13vw; 
 z-index: -1;
 }
-
 .section-main{
     display:flex;
 }
-
 .blob{
     height:13vw;
     width:auto;
 }
-
-
 /* Section- What we Teach  */
 .what-we-teach{
   background:linear-gradient(180deg, #FFF9F4 96%, #FFFFFF 100%), linear-gradient(0.51deg, #FFF9F4 95.42%, rgba(255, 249, 244, 0.3) 98.08%, rgba(255, 255, 255, 0) 100.32%);
   width:100%;
 }
-
 .topic-heading{
     color: #622C78;
     text-align: center;
     font-family: Proxima Soft Condensed;
-font-style: normal;
-font-weight: 600;
-font-size: 2.75vw;
-line-height:2vw;
-letter-spacing: 0.02em;
-margin-bottom: 1.5vw;
-padding-top: 1.5vw;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.75vw;
+    line-height:2vw;
+    letter-spacing: 0.02em;
+    margin-bottom: 1.5vw;
+    padding-top: 1.5vw;
 }
-
 .line{
     width: 20vw;
     margin:auto;
@@ -279,46 +230,15 @@ padding-top: 1.5vw;
     align-items: center;
     gap:2vw;
 }
-
-.sub-maths{
+.sub-maths,.sub-physics,.sub-chemistry,.sub-biology,.sub-computer{
     margin-top:3vw;
-    
-}
-
-
-
-.maths-img{
-   
-}
-.sub-physics{
-    margin-top:3vw;
-    
-}
-.phy-img{
-    
-}
-
-.sub-chemistry{
-    margin-top:3vw;
-   
-}
-
-.chem-img{
-   
-}
-
-.sub-biology{
-    margin-top:3vw;
- 
+    display: flex;
+    justify-content: center;
 }
 .sub-computer{
-    margin-top:3vw;
     margin-bottom:3vw;
 }
-
-
 /* Section - Testimonials */
-
 .testimonials{
     background: #FFFFFF ;
     margin:auto;
@@ -333,14 +253,12 @@ padding-top: 1.5vw;
       margin-left:4vw;
   }
   /* Section- About Us */
-
   .aboutus{
       background-color: #FFF9F4;
       margin:auto;
       width:100%;
       height:100%;
   }
-
   .aboutpara{
     margin-left: 12vw;
     margin-top:2vw;
@@ -354,21 +272,15 @@ padding-top: 1.5vw;
     color: #622C78;
     text-align: justify;
      }
-
   .why-us-card1, .why-us-card3{
-         /* margin-left:8vw; */
        margin-top: 4vw;
     }
- 
   .why-us-card2,.why-us-card4{
            margin-top: 4vw;
   }
-
-.why-us-img{
+    .why-us-img{
     filter: drop-shadow(17px 14px 12px rgba(0, 0, 0, 0.25));
     width:100%;
-     /* width:35.81vw;
-    height:49.61vw;  */
 }
   .whyus-cardblock1{
       display: flex;
@@ -380,26 +292,22 @@ padding-top: 1.5vw;
     display: flex;
     gap:4vw;
     align-items: center;
-    /* margin-left: 2vw; */
     justify-content: center;
 }
-
 /* Contact Us */
 .contact-text{
     color: #622C78;
     text-align: center;
     font-family: Proxima Soft Condensed;
-font-style: normal;
-font-weight: 600;
-font-size: 2.15vw;
-line-height: 5vw;
-letter-spacing: 0.02em;
-margin-bottom: 1.5vw;
-padding-top: 1.5vw;
-
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.15vw;
+    line-height: 5vw;
+    letter-spacing: 0.02em;
+    margin-bottom: 1.5vw;
+    padding-top: 1.5vw;
 }
-
-input[type=text], textarea{
+input[type=text],input[type=number], textarea{
     width:34vw;
     padding: 12px;
     border: 1px solid #ccc;
@@ -412,12 +320,9 @@ input[type=text], textarea{
     font-family:Roboto;
     font-style: normal;
     letter-spacing: 0.04em;
-    
-  }
- 
+}
   #error{
     margin-left:5vw;
-   
     border-radius: 4px;
   }
   input:placeholder-shown ,textarea{
@@ -432,18 +337,15 @@ input[type=text], textarea{
  }
 .contact-form{
   width:100%;
-   
 }
 .m-contact-us-img{
     display: none;
 }
 .contact-image-div{
-     
      width: 54.333vw;
      height: 42.4vw;
     margin-left:-6vw;
  }
-
  #contact-img{
     background-repeat: no-repeat;
     width:54vw;
@@ -451,7 +353,6 @@ input[type=text], textarea{
     padding:2vw;
     margin-top:-5vw;
  }
-
  .fb{
      margin:-5vw 0 0 5vw;
     height:2.5vw;
@@ -473,7 +374,6 @@ input[type=text], textarea{
  #whatsapp-img{
     height:3vw;
     width:3vw;
-  
  }
  #fb-img,#gmail-img{
     height:2.5vw;
@@ -498,19 +398,14 @@ input[type=text], textarea{
     height:3vw;
     width:3vw;
  }
-
- 
  .contact-details{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    /* font-size: 15px; */
     font-size: 1vw;
-    /* line-height: 26px; */
     line-height: 1.733vw;
     margin:0.5vw 0 0 1vw;
  }
-/* Footer */
  .footer{
     background: linear-gradient(270deg, #D6FBF1 0%, #FBF2DF 100%);
     margin-top:4vw;
@@ -520,12 +415,10 @@ input[type=text], textarea{
 #footer-logo{
     margin-bottom: 4vw;
 }
-
- .copyright{
+.copyright{
      margin:3.25vw 0vw 0vw 30vw;
      text-align: center;
      width:40vw;
-    
  }
  .m-copyright{
      display: none;
@@ -533,7 +426,6 @@ input[type=text], textarea{
  .media-links{
      display: flex;
  }
-
  /* Thank you page */
 .thankyou-section{
     margin-left: 6vw;
@@ -543,13 +435,9 @@ input[type=text], textarea{
     background: linear-gradient(180deg, #098890 0%, rgba(225, 235, 237, 0) 143.41%, rgba(41, 151, 158, 0.39) 143.41%);
 }
 .t-contactus{
-    /* display:flex;
-    flex-wrap: wrap;
-    height:100vh; */
     min-height: 100%;
     display: grid;
     grid-template-rows: 1fr auto;
-
 }
 .t-contact-main{
     display:flex;
@@ -566,7 +454,6 @@ input[type=text], textarea{
     width:36.6vw;
     height:26vw;
 }
-
 .thankyou-title{
     font-family: Roboto;
     font-style: italic;
@@ -576,7 +463,6 @@ input[type=text], textarea{
     text-align: center;
     letter-spacing: 0.02em;
     color: #D7FAF0;
-    
 }
 .thankyou-content1,.thankyou-content2{
     font-family: Roboto;
@@ -584,14 +470,12 @@ font-style: italic;
 font-weight: normal;
 font-size: 1.5vw;
 line-height: 2.5vw;
-
 align-items: center;
 letter-spacing: 0.01em;
 margin-left:1vw;
 }
 .thankyou-content1{
     margin-top:2.5vw;
-   
 }
 #t-footer-logo{
     height:100%;
@@ -600,11 +484,8 @@ margin-left:1vw;
 #t-footer-logo-img{
     margin:-1vw 0 0 2vw;
 }
-
-
 /* Ipad Pro size */
 @media only screen and (max-width:1024px){
-    
     .hero-img-div{
         height:auto;
         margin-left: 0;
@@ -615,7 +496,6 @@ margin-left:1vw;
         margin-left:8vw;
         margin-top: 4vw;
     }
-
     .hero-h2{
         margin-left:8vw;
         margin-top: 2vw;
@@ -635,16 +515,13 @@ margin-left:1vw;
     }
     .logo-div{
         margin-top: 1.8vw;
-        
     }
     .logo{
         margin-top: 0vw;
-     
     }
     #logo-text{
         margin-top: 1.8vw;
         font-size:1.8vw;
-       
     }
     .navbar-nav{
        margin-top:0;
@@ -654,22 +531,18 @@ margin-left:1vw;
         font-size: 1.5vw;
     }
     .hero-img{
-       
         height:auto !important;
         width:100% ;
         max-width:100%;
         }
-
     .section-sub{
         width:75%;
         max-width:75%;
     }
-
     .what-we-teach{
        margin-left:0;
        margin-right:0;
     }
-   
     .line{
         width: 18vw;
     }
@@ -685,12 +558,11 @@ margin-left:1vw;
     .aboutpara{
         line-height: 3vw;
         font-size: 2.5vw;
-       
     }
      .contact-main{
         margin-left: -2vw;
     }
-    input[type=text], textarea{
+    input[type=text],input[type=number],  textarea{
         width:40vw;
     }
     #fb-img,#gmail-img,#whatsapp-img{
@@ -728,15 +600,11 @@ margin-left:1vw;
    }
    input:placeholder-shown,textarea{
     font-size:1.5vw;
+    }
 }
-
-}
-
 /* Ipad size */
 @media only screen and (max-width:768px){
-
 .logo{
-       
         margin-left:1vw;
         width:100%;
         max-width:100%;
@@ -745,41 +613,32 @@ margin-left:1vw;
     .logo-div{
         margin-top:1vw;
     }
-    
     #logo-text{
         margin-top: 1.6vw;
         font-size:2vw;
-       
     }
     .nav-item{
-          /* margin-top: 8vw !important; */
         font-size: 1.9vw;
     }
     .navbar-nav{
         margin-right:0.5vw;
-    
     }
     #hero-blob{
         margin-top:-2vw;
         height:auto;
         width: 38.5vw;
     }
-
     .hero-img{
-       
         height:auto !important;
         width:120% ;
         max-width:120%;
         margin-top:0;
-        
         }
-
    .hero-img-div{
            margin-left:-4vw;
            margin-top: -4vw;
            height:auto !important;
         }
-
     .hero-h1{
       margin-top:3.5vw;
       font-size:4vw;
@@ -787,16 +646,12 @@ margin-left:1vw;
    }
    .hero-h2{
        font-size: 3.5vw;
-       
    }
    .hero-h3{
-  
     margin-top:-1.8vw;
     font-size:2.4vw;
     line-height: 2.8vw;
-       
    }
-
    #hero-demo-btn{
     font-size: 2vw;
     margin-top:8vw;
@@ -823,14 +678,12 @@ margin-left:1vw;
     .contact-text{
         font-size: 3vw;
         letter-spacing: 2%;
-    
         text-align: center;
     }
     .contact-main{
         margin-left:-2vw;
     }
-    
-input[type=text], textarea{
+input[type=text],input[type=number],  textarea{
     width:40vw;
     padding: 0.8vw;
     border: 1px solid #ccc;
@@ -840,9 +693,7 @@ input[type=text], textarea{
     margin-bottom: 1.067vw;
     resize: vertical;
     margin-left:8vw;
-    
     letter-spacing: 0.04em;
-    
   }
   input[type=submit]{
     margin-left:14vw;
@@ -878,7 +729,6 @@ input[type=text], textarea{
         bottom:12vw;
         right:6vw;
         }
-    
         .gmailfloat{
         height:6vw;
         width:6vw;
@@ -889,25 +739,7 @@ input[type=text], textarea{
 }
 
 @media only screen and (max-width:576px){
-    .navbar-nav{
-        background-color:#622C78;
-      }
-    .nav-item{
-        
-        font-size:4vw;
-        text-align: center;
-        padding:2vw;
-        border-bottom: 1px solid white;
-        margin-bottom: 2vw;
-        margin-left:1vw;
-        transition: ease-out 0.4s;
-    
-    }
-    .nav-link{
-        color: #fff!important;
-    }
     .logo{
-       
         margin-left:1vw;
         width:120%;
         max-width:120%;
@@ -918,7 +750,6 @@ input[type=text], textarea{
         width:4vw;
         height:11vw;
         margin-left:2vw;
-        
     }
     .sub-img{
         width:95%;
@@ -954,12 +785,10 @@ input[type=text], textarea{
     }
 }
 @media only screen and (max-width:414px){
-
 .navbar-nav{
     background-color:#622C78;
     }
 .nav-item{
-    
     font-size:4vw;
     text-align: center;
     padding:2vw;
@@ -967,14 +796,11 @@ input[type=text], textarea{
     margin-bottom: 2vw;
     margin-left:1vw;
     transition: ease-out 0.4s;
-  
 }
 .nav-link{
     color: #fff!important;
 }
-
 .logo{
-       
     margin-left:1vw;
     width:120%;
     max-width:120%;
@@ -985,21 +811,17 @@ input[type=text], textarea{
     width:4vw;
     height:11vw;
     margin-left:2vw;
-    
 }
-
 #logo-text{
     margin-top: 1.6vw;
     font-size:3.5vw;
    
 }
-
 .m-hero-img-text{
     display: block;
     margin-left:24vw;
    margin-top:10vw;
 }
-
 .hero-img-m{
     display: block;
     margin-left: -1vw;
@@ -1023,13 +845,10 @@ input[type=text], textarea{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     font-size: 2.8vw;
 }
-
-
 .section-main{
     display:block;
     position:relative;
 }
-
 .what-we-teach{
     margin-left:0;
     margin-right:0;
@@ -1040,7 +859,6 @@ input[type=text], textarea{
     } 
     .line{
         width: 22vw;
-    
     }
     .topic-heading{
         margin-bottom:0;
@@ -1072,8 +890,7 @@ input[type=text], textarea{
     }
     .why-us-card3,.why-us-card4{
     margin:4% 2% 2% 3%;
-}
-
+    }
     .why-us-img{
     width:100%;
     height:auto;
@@ -1084,7 +901,6 @@ input[type=text], textarea{
     bottom:28vw;
     right:5vw;
     opacity:1;
-
     }
     .whatsappfloat{
     height:10vw;
@@ -1092,7 +908,6 @@ input[type=text], textarea{
    bottom:14vw;
     right:4vw;
     }
-
     .gmailfloat{
     height:8vw;
     width:8vw;
@@ -1117,16 +932,13 @@ input[type=text], textarea{
 }
 #m-contact-img{
     margin-top: 2vw;
-    /* width: 334px; */
     width: 92.778vw;
     height:64.167vw;
-    /* height: 231px; */
 }
 
-input[type=text], textarea{
+input[type=text], input[type=number], textarea{
     width:88vw;
     margin-left: 3vw;
-
 }
 input:placeholder-shown,textarea{
     font-size:3vw;
@@ -1182,7 +994,6 @@ input:placeholder-shown,textarea{
         width:10vw;
         margin-right:3vw;
      }
-    
      #whatsapp-img-footer,#fb-img-footer,#gmail-img-footer{
         height:10vw;
         width:10vw;
@@ -1194,11 +1005,8 @@ input:placeholder-shown,textarea{
     #t-footer-logo{
         display:none;
     }
-
 }
-
 @media only screen and (max-width:360px){
-
     .m-hero-img-text{
         display: block;
         margin-left:18vw;
@@ -1211,25 +1019,19 @@ input:placeholder-shown,textarea{
         height:auto !important;
         background-size: cover;
     }
- 
     #hero-demo-btn{
         margin-top: -100vw;
         margin-left: 30vw;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
         font-size: 2.8vw;
     }
-
     .m-testimonial-img{
         display: block;
         margin-left: 6vw;
     }
-    /* .sub-biology,.sub-computer{
-        margin-left:4vw;
-    } */
     .scrollToTopBtn, .whatsappfloat, .gmailfloat{
         right:4vw;
     }
-
 }
  
 @media only screen and (max-width:321px){
@@ -1261,5 +1063,4 @@ input:placeholder-shown,textarea{
         font-size: 2.75vw;
         line-height: 3.5vw;
     }
-
 }

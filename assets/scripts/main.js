@@ -2,7 +2,6 @@
 document.addEventListener("scroll", handleScroll);
   // get a reference to the button  
 var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
-
 scrollToTopBtn.addEventListener("click", scrollToTop);
 
 var whatsappfloat = document.querySelector(".whatsappfloat");
@@ -20,16 +19,12 @@ function scrolltoSection(id){
 });
 }
 
-
 // To handle to scroll to top
 function handleScroll() {
-
   // check whether we need to show or hide the button
   var scrollableHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
- 
   var GOLDEN_RATIO = 0.095;
-  
-  if ((document.documentElement.scrollTop / scrollableHeight ) > GOLDEN_RATIO) {
+ if ((document.documentElement.scrollTop / scrollableHeight ) > GOLDEN_RATIO) {
     //show button
     scrollToTopBtn.style.display = "block";
     whatsappfloat.style.display="block";
@@ -64,16 +59,14 @@ function scrollToTop() {
             console.log("Passed email check");
             error.textContent = ""
             return true;
-    
         }
         else
         {
             console.log(`Failed email check for ${email}`);
-          
             // Changing content and color of content
             error.textContent = "Please enter a valid email id"
             error.style.color = "red"
             return false;
         }
-    
     }
+    

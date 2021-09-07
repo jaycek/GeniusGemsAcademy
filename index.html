@@ -41,8 +41,15 @@
                       <ul class="navbar-nav ms-auto">
                       
 
-                        <li class="nav-item">
-                            <a class="nav-link" onclick="scrolltoSection('Subjects')" style="cursor: pointer;";>WHAT WE TEACH</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"  data-bs-toggle="dropdown" style="cursor: pointer;";>WHAT WE TEACH</a>
+                            <ul class="dropdown-menu">
+                                <li> <a class="dropdown-item" onclick="scrolltoSection('math')" style="cursor: pointer;"> Mathematics </a></li>
+                                <li> <a class="dropdown-item"  onclick="scrolltoSection('physics')" style="cursor: pointer;">Physics </a></li>
+                                <li> <a class="dropdown-item" onclick="scrolltoSection('chemistry')" style="cursor: pointer;"> Chemistry </a></li>
+                                <li> <a class="dropdown-item" onclick="scrolltoSection('biology')" style="cursor: pointer;"> Biology </a></li>
+                                <li> <a class="dropdown-item" onclick="scrolltoSection('computer')" style="cursor: pointer;"> Computer Science </a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" onclick="scrolltoSection('Testimonials')" style="cursor: pointer;">TESTIMONIALS</a>
@@ -95,20 +102,21 @@
             <div class="line">
                 
             </div>
+
             <div class="subjects">
-                <div class="sub-maths">
+                <div class="sub-maths" id="math">
                     <img  class="sub-img" src="images/subject-card-maths.svg" alt="Year 1 to Year 10 Maths image"> 
                 </div>
-                <div class="sub-physics">
+                <div class="sub-physics" id="physics">
                         <img class="sub-img" src="images/subject-card-physics.svg" alt="Year 1 to Year 10 Physics image"> 
                     </div>
-                <div class="sub-chemistry">
+                <div class="sub-chemistry" id="chemistry"> 
                     <img class="sub-img" src="images/subject-card-chem.svg" alt="Year 1 to Year 10 Chemistry image"> 
                 </div>
-                <div class="sub-biology">
+                <div class="sub-biology" id="biology">
                     <img class="sub-img" src="images/subject-card-bio.svg" alt="Year 1 to Year 10 Biology image"> 
                 </div>
-                <div class="sub-computer">
+                <div class="sub-computer" id="computer">
                     <img class="sub-img" src="images/subject-card-comp.svg" alt="Year 1 to Year 10 Computer Science image"> 
                 </div>
             </div>

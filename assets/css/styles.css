@@ -108,6 +108,9 @@ nav-link{
 .navbar-brand{
     cursor: pointer !important;
 }
+.dropdown-menu{
+    border:none;
+}
 /* Navbar ends */
 /* Main Hero section starts */
 .m-hero-img-text{
@@ -636,7 +639,7 @@ margin-left:1vw;
         }
    .hero-img-div{
            margin-left:-4vw;
-           margin-top: -4vw;
+           /* margin-top: -4vw; */
            height:auto !important;
         }
     .hero-h1{
@@ -789,7 +792,7 @@ input[type=text],input[type=number],  textarea{
     background-color:#622C78;
     }
 .nav-item{
-    font-size:4vw;
+    font-size:5vw;
     text-align: center;
     padding:2vw;
     border-bottom: 1px solid white;
@@ -799,6 +802,15 @@ input[type=text],input[type=number],  textarea{
 }
 .nav-link{
     color: #fff!important;
+}
+.dropdown-menu{
+    background-color: #622C78;
+    text-align: center;
+}
+.dropdown-item{
+    font-size:4.5vw;
+    font-family:"Proxima Soft Condensed";
+    color:#fff;
 }
 .logo{
     margin-left:1vw;

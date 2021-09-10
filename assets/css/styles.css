@@ -1004,6 +1004,10 @@ input:placeholder-shown,textarea{
         display:block;
         margin:6vw 0 0 0;
     }
+    #t-footer{
+        position:fixed;
+        bottom:0;
+     }
     #whatsapp-img{
         height:10vw;
         width:10vw;
@@ -1123,5 +1127,4 @@ input:placeholder-shown,textarea{
         font-size: 3.3vw;
         padding:2vw;
     }
-    
 }

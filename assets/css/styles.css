@@ -435,6 +435,25 @@ input[type=text],input[type=number], textarea{
      display: flex;
  }
  /* Thank you page */
+ .t-nav{
+     display:flex;
+     justify-content: space-between;
+     
+ }
+.home-div{
+    width:3.19vw;
+    height:3vw;
+    margin-bottom:2vw;
+    align-items: center;
+    margin-top: 3vw;
+    margin-right: 8vw;
+}
+.home-icon{
+  
+    height:auto !important;
+    width:100%;
+    max-width:100%;
+}
 .thankyou-section{
     margin-left: 6vw;
     width:40%;
@@ -805,9 +824,6 @@ input[type=text],input[type=number],  textarea{
     .copyright{
         font-size:2vw;
     }
-    .t-contact-main{
-        margin-top: 0;
-    }
     .thankyou-title{
         font-size: 3vw;
     }
@@ -858,6 +874,10 @@ input[type=text],input[type=number],  textarea{
     font-size:3.5vw;
    
 }
+.home-div{
+    width:5vw;
+}
+
 .m-hero-img-text{
     display: block;
     margin-left:24vw;
@@ -1005,8 +1025,8 @@ input:placeholder-shown,textarea{
         margin:6vw 0 0 0;
     }
     #t-footer{
-        position:fixed;
-        bottom:0;
+        position: fixed !important;
+        bottom:0 !important;
      }
     #whatsapp-img{
         height:10vw;
@@ -1058,7 +1078,7 @@ input:placeholder-shown,textarea{
         margin:0;
         width:100%;
         text-align: center;
-        height:40vw;
+        height:40vw; 
     }
     .thankyou-title{
         font-size:4.5vw;

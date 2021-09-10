@@ -282,7 +282,6 @@ z-index: -1;
            margin-top: 4vw;
   }
     .why-us-img{
-    filter: drop-shadow(17px 14px 12px rgba(0, 0, 0, 0.25));
     width:100%;
 }
   .whyus-cardblock1{
@@ -414,6 +413,12 @@ input[type=text],input[type=number], textarea{
     margin-top:4vw;
     display: flex;
     width: 100%;
+   
+    
+ }
+ #t-footer{
+    position:fixed;
+    bottom:0;
  }
 #footer-logo{
     margin-bottom: 4vw;
@@ -601,7 +606,7 @@ margin-left:1vw;
    .contact-details{
         font-size: 1.5vw;
    }
-   input:placeholder-shown,textarea{
+   input:placeholder-shown,input[type=text],input[type=number],textarea{
     font-size:1.5vw;
     }
 }
@@ -754,6 +759,30 @@ input[type=text],input[type=number],  textarea{
         height:11vw;
         margin-left:2vw;
     }
+    .navbar-nav{
+        background-color:#622C78;
+        }
+    .nav-item{
+        font-size:3vw;
+        text-align: center;
+        padding:2vw;
+        border-bottom: 1px solid white;
+        margin-bottom: 2vw;
+        margin-left:1vw;
+        transition: ease-out 0.4s;
+    }
+    .nav-link{
+        color: #fff!important;
+    }
+    .dropdown-menu{
+        background-color: #622C78;
+        text-align: center;
+    }
+    .dropdown-item{
+        font-size:2.8vw;
+        font-family:"Proxima Soft Condensed";
+        color:#fff;
+    }
     .sub-img{
         width:95%;
     }
@@ -792,7 +821,7 @@ input[type=text],input[type=number],  textarea{
     background-color:#622C78;
     }
 .nav-item{
-    font-size:5vw;
+    font-size:4vw;
     text-align: center;
     padding:2vw;
     border-bottom: 1px solid white;
@@ -808,7 +837,7 @@ input[type=text],input[type=number],  textarea{
     text-align: center;
 }
 .dropdown-item{
-    font-size:4.5vw;
+    font-size:3.8vw;
     font-family:"Proxima Soft Condensed";
     color:#fff;
 }
@@ -951,6 +980,7 @@ input[type=text],input[type=number],  textarea{
 input[type=text], input[type=number], textarea{
     width:88vw;
     margin-left: 3vw;
+    font-size:3vw;
 }
 input:placeholder-shown,textarea{
     font-size:3vw;
@@ -1002,13 +1032,13 @@ input:placeholder-shown,textarea{
         margin-left:26vw;
     }
     .footer-media-div{
-        height:10vw;
-        width:10vw;
+        height:8vw;
+        width:8vw;
         margin-right:3vw;
      }
      #whatsapp-img-footer,#fb-img-footer,#gmail-img-footer{
-        height:10vw;
-        width:10vw;
+        height:8vw;
+        width:8vw;
         margin-right:3vw;
      }
      .contact-main{
@@ -1017,6 +1047,23 @@ input:placeholder-shown,textarea{
     #t-footer-logo{
         display:none;
     }
+    .thankyou-img-div{
+        display:none;
+    }
+    .thankyou-section{
+        margin:0;
+        width:100%;
+        text-align: center;
+        height:40vw;
+    }
+    .thankyou-title{
+        font-size:4.5vw;
+    }
+    .thankyou-content1,.thankyou-content2{
+        font-size: 3.3vw;
+        padding:2vw;
+    }
+    
 }
 @media only screen and (max-width:360px){
     .m-hero-img-text{
@@ -1056,7 +1103,7 @@ input:placeholder-shown,textarea{
     #form-btn-demo {
         margin-left: 16vw;
     }
-    input:placeholder-shown,textarea{
+    input:placeholder-shown,input[type=text],input[type=number],textarea{
         font-size:3.4vw;
     }
     .m-hero-img-text {
@@ -1068,11 +1115,13 @@ input:placeholder-shown,textarea{
     .topic-heading{
         font-size:5vw;
     }
-    .thankyou-section{
-        width:50%;
+
+    .thankyou-title{
+        font-size:4.5vw;
     }
     .thankyou-content1,.thankyou-content2{
-        font-size: 2.75vw;
-        line-height: 3.5vw;
+        font-size: 3.3vw;
+        padding:2vw;
     }
+    
 }

@@ -10,13 +10,37 @@ var gmailfloat= document.querySelector(".gmailfloat");
 // To handle navbar clicks on same page sections
 function scrolltoSection(id){
 
-    const node=document.getElementById(id);
-  
-   node.scrollIntoView({
-    behavior: "smooth", 
-    block: "start",
-    inline: "nearest"
-});
+    // const node=document.getElementById(id);
+   
+//     node.scrollIntoView({
+//     behavior: "smooth", 
+//     block: "start",
+//     inline: "start"
+// });
+// node.scrollIntoView(true);
+var offsets = document.getElementById(id).getBoundingClientRect();
+var dropdown = document.querySelector(".dropdown-toggle");
+var top;
+var left;
+
+console.log(dropdown);
+if(dropdown.classList.contains("show")){
+  top = offsets.top-150;
+  left = offsets.left;
+}
+else{
+  top = offsets.top;
+  left = offsets.left;
+}
+console.log(top);
+console.log(left);
+var scrollOptions = {
+  left: left,
+  top:top,
+  behavior: 'auto'
+}
+
+window.scrollTo(scrollOptions);
 }
 
 // To handle to scroll to top

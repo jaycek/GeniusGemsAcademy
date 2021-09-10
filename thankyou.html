@@ -15,6 +15,7 @@
     <script src="https://kit.fontawesome.com/44c693abb7.js" crossorigin="anonymous"></script>
     <!-- Custom stylesheet -->
    <link rel="stylesheet" href="assets/css/styles.css">
+   <link rel="icon" href="images/Logo.png">
 </head>
 <body>
     
@@ -36,8 +37,15 @@
                       <ul class="navbar-nav ms-auto">
                       
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html" style="cursor: pointer;";>WHAT WE TEACH</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"  data-bs-toggle="dropdown" style="cursor: pointer;";>WHAT WE TEACH</a>
+                            <ul class="dropdown-menu">
+                                <li> <a class="dropdown-item" onclick="scrolltoSection('math')" style="cursor: pointer;"> Mathematics </a></li>
+                                <li> <a class="dropdown-item"  onclick="scrolltoSection('physics')" style="cursor: pointer;">Physics </a></li>
+                                <li> <a class="dropdown-item" onclick="scrolltoSection('chemistry')" style="cursor: pointer;"> Chemistry </a></li>
+                                <li> <a class="dropdown-item" onclick="scrolltoSection('biology')" style="cursor: pointer;"> Biology </a></li>
+                                <li> <a class="dropdown-item" onclick="scrolltoSection('computer')" style="cursor: pointer;"> Computer Science </a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="index.html" style="cursor: pointer;">TESTIMONIALS</a>
@@ -72,24 +80,11 @@
                         </div>
                     </div>
                     <div class="thankyou-img-div">
-                        <img  src="images/contact-us.svg" alt="Genius Gems live tuition image" id="t-contact-img" >
-                        <!-- <div class="fb" id="t-fb">
-                            <a href=" https://www.facebook.com/GeniusGemsAcademy" target="_blank"> <img  src="images/facebook.gif" alt="Facebook icon" id="t-fb-img" ></a>
-                            <p class="contact-details">geniusgemsacademy</p>
-                        </div>
-                        <div class="whatsapp">
-                            <a href="https://api.whatsapp.com/send?phone=+917025125010" target="_blank"><img  src="images/whatsapp.gif" alt="Whatsapp icon" id="t-whatsapp-img"  ></a>
-                            <p class="contact-details">+917025125010</p>
-                        </div>
-                        <div class="gmail">
-                            <a href="mailto:geniusgemsacademy@gmail.com" target="_blank" class="my_popup_open" data-popup-ordinal="7" id="open_5945199"><img  src="images/gmail.gif" alt="Gmail icon" id="t-gmail-img"  ></a>
-
-                            <p class="contact-details">geniusgemsacademy@gmail.com</p>
-                        </div> -->
+                        <img  src="images/contact-us.webp" alt="Genius Gems live tuition image" id="t-contact-img" >
                     </div>
                 </div>
           
-                <div class="footer">
+                <div class="footer" id="t-footer">
                     <div class="logo-div" id="t-footer-logo">
                         <a class="navbar-brand " href="index.html">
                             <img class="logo" src="images/Logo.svg" alt="Genius Gems Logo" id="t-footer-logo-img">
